@@ -1,4 +1,4 @@
-import { ExpenseData } from './expense.actions';
+
 import { createAction, props } from '@ngrx/store';
 import { Expense } from './expense.model';
 
