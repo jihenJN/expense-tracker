@@ -8,7 +8,7 @@ export type ExpenseData = Omit<Expense, 'id'>;
 export const loadExpenses = createAction('[Expenses Page] load Expense');
 export const loadExpensesSuccess = createAction(
   '[Expenses API] load Expense Success',
-  props<{ Expenses: Expense[] }>()
+  props<{ expenses: Expense[] }>()
 );
 export const loadExpensesFailure = createAction(
   '[Expenses API] load Expense Failure',
@@ -26,7 +26,7 @@ export const addExpenseSuccess = createAction(
 );
 export const addExpenseFaillure = createAction(
   '[Expenses API] Add Expense Faillure',
-  props<{ error: any }>
+  props<{ error: any }>()
 );
 
 
