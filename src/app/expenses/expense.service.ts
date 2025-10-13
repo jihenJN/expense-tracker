@@ -13,7 +13,7 @@ export class ExpenseService {
   private expenseUrl = 'http://localhost:3000/expenses'
   //getExp
   getExpenses():Observable<Expense[]>{
-    return this.http. (this.expenseUrl).pipe(
+    return this.http.get<Expense[]>(this.expenseUrl).pipe(
       catchError(this.handleError)
     )
   }
@@ -31,7 +31,7 @@ export class ExpenseService {
   }
   //delete
   deleteExpense(expenseId:string):Observable<{}>{
-    return this.http.delete<{}>(`${this.expenseUrl}/${expenseId}`).pipe(
+    return this.http.delete(`${this.expenseUrl}/${expenseId}`).pipe(
     catchError(this.handleError)
    )
 
