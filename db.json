@@ -1,25 +1,25 @@
 {
   "expenses": [
     {
-      "id": "1",
-      "description": "Monthly Salary",
-      "amount": 3500,
+      "id": "2c86b897-2b9c-480c-bd95-f23156af8826",
+      "description": "salary",
+      "amount": 2500,
       "category": "Income",
-      "date": "2025-07-01T10:00:00.000Z"
+      "date": "2025-10-15"
     },
     {
-      "id": "2",
-      "description": "Grocery Shopping",
-      "amount": 125.50,
-      "category": "Food",
-      "date": "2025-07-02T14:30:00.000Z"
-    },
-    {
-      "id": "3",
-      "description": "Gas Bill",
-      "amount": 75.00,
+      "id": "0f97b54d-393d-43cc-810a-8861e0265452",
+      "description": "Gaz bill",
+      "amount": 20,
       "category": "Utilities",
-      "date": "2025-07-03T09:00:00.000Z"
+      "date": "2025-10-15T00:00:00.000Z"
+    },
+    {
+      "id": "b2c1b88e-dff0-477e-aa3d-c98c8f0f0cef",
+      "description": "pizza",
+      "amount": 18,
+      "category": "Food",
+      "date": "2025-10-15T00:00:00.000Z"
     }
   ]
 }
