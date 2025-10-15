@@ -1,5 +1,5 @@
 
-export type ExpenseCategory='Food'|'Transport'|'Utilities'|'Income'|'Other';
+export type ExpenseCategory='Food'|'Transport'|'Utilities'|'Shopping'|'Income'|'Other';
 
 export interface Expense {
 id:string;
